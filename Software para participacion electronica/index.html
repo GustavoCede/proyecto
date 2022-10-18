@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Formulario Alfaro</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>Formulario.<b>Alfaro</b></h1>
+            </div>
+            <div class="buscar">
+                <input type="text" placeholder="Buscar" required>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="menu-selected"><a href="#">Foro</a></li> <!-- se usa "#" para que no nos redirija a otra página-->
+
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container-body" id="formulario">
+
+        <div class="container-form sign-up">
+            <div class="inicio">
+                <div class="message">
+                    <h2>Formulario Alfaro</h2>
+                    <p>Crea tus formularios e interactua con otros estudiantes.</p>
+                    <button class="sign-up-btn">Iniciar Sesion</button>
+                </div>
+            </div>
+            <form class="formulario">
+                <h2 class="create-account">Crear una cuenta</h2>
+                <input type="text" placeholder="Nombre" id="nombre">
+                <input type="email" placeholder="Email" id="email">
+                <input type="password" placeholder="Contraseña" id="password">
+                <input type="password" placeholder="Confirmar Contraseña" id="confpassword">
+                <input type="submit" value="Registrarse" id="registrarse" >
+            </form>
+        </div>
+        <div class="container-form sign-in">
+            <form class="formulario">
+                <h2 class="create-account">Iniciar Sesion</h2>
+                <input type="email" placeholder="Email" id="email">
+                <input type="password" placeholder="Contraseña" id="password">
+                <input type="submit" value="Iniciar Sesion">
+            </form>
+            <div class="welcome-back">
+                <div class="message">
+                    <h2>Comienza a hacer tu formulario</h2>
+                    <p>Si aun no tienes una cuenta por favor registrese aqui</p>
+                    <button class="sign-in-btn">Registrarse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="LogoUleam2">
+            <img src="../img/logo_u2.png">
+        </div>
+        <nav class="footer-inf">
+            <a href="#"><pre><center>ULEAM @ Copyright 2022, Todos los derechos reservados - Universidad Laica Eloy Alfaro de Manabí</center></pre></a>
+            <a href="#"><pre><center>Dirección: Av. Circunvalación - Vía a San Mateo</center></pre></a>
+            <a href="#"><pre><center>Manta - Manabí - Ecuador</center></pre></a>
+        </nav>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
