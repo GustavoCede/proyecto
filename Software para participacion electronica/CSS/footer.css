@@ -1,0 +1,30 @@
+footer{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    font-family: var(--fuente-1);
+}
+.footer-inf{
+    margin-top: 20px;
+}
+.footer-inf a{
+    color: aliceblue;
+}
+.LogoUleam2{
+    padding-top: 20px;
+    justify-items: center;
+    height: 100%;
+    
+    
+
+}
+.img2{
+    display: block;
+    margin: auto;
+    background-image: url(../img/logo_u2.png);
+    background-position: center; /*Centrar imagen*/
+    background-size: cover;/*Hace que la imagen se expanda si se ajusta el tamaño del navegador y asi no se repita*/
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 70px;
+}

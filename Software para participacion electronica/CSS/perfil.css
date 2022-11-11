@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(50, 53, 110);
+}
+section{
+    margin: 80px 200px 0;
+    height: auto;
+    width: auto;
+}
+.contenedor-principal{
+    margin-top:100px ;
+    position: static;
+    background-color: beige;
+}
+.contenedor-principal__caja{
+
+}
+.principal-caja{
+
+}
+.principal-caja__title{
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.principal-caja__title h1{
+    text-align: center;
+}
+.principal-caja__contenido{
+    margin: 0 250px;
+
+}
+.caja-contenido__img{
+
+}
+.caja-contenido__img img{
+    width: 90px;
+    height: 90px;
+    margin-left: 130px;
+}
+.caja-contenido__img p{
+    margin-left: 110px;
+}
+.caja-contenido__info{
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.caja-contenido__datos{
+    margin: 20px;
+}

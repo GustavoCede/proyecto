@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(18, 20, 53);
+}
+section{
+    margin: 80px 150px 0;
+    padding:40px;
+    height: auto;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+}
+.content-conteiner__contenido{
+    padding: 0 30px;
+}
+.conteiner-contenido__title h1{
+    text-align: center;
+}
+.conteiner-contenido__formulario{
+    margin-top: 20px;
+}
+.input-preguntas{
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
+}
+.checkbox-input{
+    margin: 20px 0;
+}
+.checkbox-respuesta{
+    margin: 0 10px;
+    height: 40px;
+}
+.input-button{
+    margin: 0 40%;
+}
+.button-submit{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(22, 122, 253, 0.863);
+    border-radius: 5%;
+    color: rgb(255, 255, 255);
+
+}

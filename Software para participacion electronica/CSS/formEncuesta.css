@@ -1,0 +1,84 @@
+section{
+    margin: 80px 200px  0;
+    height: auto;
+}
+
+.pantalla-d
+{
+    display:flex;
+    
+}
+
+.izquierda{
+    background-color: #aeafaf;
+    width: 55%;
+    height: 80vh;
+    display: grid;
+    align-content: center;
+    color: rgb(7, 7, 7);
+    
+}
+.bottonr{
+    position: relative;
+    top:20px;
+    left: 300px;
+}
+.derecha{
+    background-color: #420000;
+    width: 45%; 
+    height: 80vh;
+    align-content: center;
+
+}
+
+h2 img{
+    height: 35px;
+    width: 35px;
+    font-size: 40PX;
+
+}
+
+.pngnombre img{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    top:100px;
+    left: 250px;
+}
+.docente{
+    text-align: center;
+    transform: translate(20px, 402px);
+    color: white;
+}
+
+img{
+    width: 10%;
+    margin-top: auto;
+    
+
+}
+
+a button{
+    color: white;
+    background-color: rgb(90, 0, 0);
+    border-radius: 10px;
+    width: 110px;
+    height: 50px;
+    cursor: pointer;
+    margin-right: 40px;
+    border-color: none;
+    transition: .2s;
+    position: relative;
+
+}
+
+a button:hover{
+    background-color: rgb(150, 17, 17);
+    width: 115px;
+    height: 55px;
+    transition: .2s;
+    
+}
+
+

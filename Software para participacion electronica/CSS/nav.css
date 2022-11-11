@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Yeseva+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.buscar{
+    margin: 20px;
+    width: 500px;
+}
+.buscar input{
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;/*ancho*/
+    height: 80px;/*altura*/
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 25px -22px black; /* ancho de sombra, movimiento hacia abajo, grosor o desvanecimiento de sombra, posicion o tamaño de sombra, color*/
+    z-index: 2; /* para traer adelante de los demas elementos*/
+}
+.header-content{
+    max-width: 1200px; /* define el tamaño maximo de los elementos */
+    margin: auto; /*auto para centrar */
+    display: flex; /* flex para poner las cajas una de lado de otra*/
+    justify-content: space-between;/* Distribuir items uniformemente El primer item al inicio, el último al final */
+}
+.logo{
+    height: 80px; /*altura referente al tamaño de contenedor padre (header)*/
+    display: flex; /*Indica la capacidad de un elemento flexible para alterar sus dimensiones y llenar el espacio disponible*/
+    justify-content: center;/*Ambas propiedades trabajan cunjuto a display flex*/
+    align-items: center;/**/
+}
+.logo h1 b{
+    color: rgba(0, 90, 53, 0.87);
+}
+.menu{
+    height: 80px; /* no puede superar la altura de su contenedor principal*/
+
+}
+.menu nav{
+    height: 100%;
+}
+.menu ul{
+    height: 100%;
+    display: flex; /*alinear a los lados*/
+    list-style: none;/*Le quita los estilos predeterminados a la lista (le quita las viñetas)*/
+}
+.menu nav ul li {
+    height: 100%;
+    margin: 0 10px; /*margin vertical de 0, margin horizontal 20px*/
+    display: flex;/*para centrar con ayuda de las dos propiedades siguientes*/
+    justify-content: center;
+    align-items: center;
+}
+.menu-selected a{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+.menu-selected a:hover{
+    color: rgba(0, 90, 53, 0.87);
+}

@@ -1,0 +1,75 @@
+body{
+    background-color:rgb(50, 53, 110);
+}
+section{
+    margin: 80px 200px 20px ;
+    height: auto;
+    width: auto;
+}
+.contenedor-principal{
+    position: static;
+    background-color: beige;
+
+}
+.search{
+    width: 100%;
+    padding: 10px 30px;
+}
+.principal-contenido_title{
+    padding-top: 40px;
+}
+h1{
+    text-align: center;
+}
+.principal-contenido__foro{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenido-foro__block{
+
+    width: auto;
+
+}
+.foro-block__title{
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding: 10px 40px;
+    margin: 30px 100px;
+    display: flex;
+
+}
+.block__title{
+    text-align: center;
+    padding-top: 15px;
+}
+.title-profile_img{
+    width: 60px;
+}
+.block-title__profile{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 40px;
+}
+.title-profile__user{
+    margin: 10px 20px 20px;
+}
+.username{
+    padding-left: 12px;
+}
+.block_button{
+    margin-left: 20px;
+}
+.button_access{
+    width: 150px;
+    margin-top: 10px;
+    height: 60px;
+    background-color: rgb(2, 166, 172);
+    border-radius: 5%;
+    color: rgb(255, 255, 255);
+    
+}
+.block__title h1{
+    font-size: 18px;
+}
